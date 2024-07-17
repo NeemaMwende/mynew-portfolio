@@ -8,7 +8,6 @@ import { useRef } from 'react';
 import { PROJECTS } from "../../src/utils/data";
 import SlidingCard from './SlidingCard';
 
-
 const Projects = () => {
   const sliderRef = useRef();
 
