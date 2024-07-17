@@ -37,7 +37,7 @@ import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 const Bio = () => {
   const { scrollYProgress } = useScroll();
   const [text] = useTypewriter({
-    words: ["MERN Developer.", "Full Stack Developer.", "JavaScript Developer"],
+    words: ["MERN Developer.", "Full Stack Developer.", "JavaScript Developer", "BackEnd Developer"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -49,7 +49,7 @@ const Bio = () => {
     <section className='hero-container' id='home-section'>
         <SlidingCard>
         <div className='hero-content slide-card'>
-          <h2>Building Digital <span>Experiences </span>That Inspire</h2>
+          <h2>Building Digital <br/> <span>Experiences </span>That Inspire</h2>
           <div className='flex flex-col gap-5'>
             <div>
               <h1 className='text-6xl font-bold text-white'>
