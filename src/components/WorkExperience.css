@@ -1,6 +1,8 @@
 .experience-container {
     margin: 4rem 0;
     position: relative;
+    width: 80rem;
+    margin-left: 110px;
 }
 
 .experience-container h5 {
@@ -32,6 +34,7 @@
     cursor: pointer;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 
 .arrow-left {

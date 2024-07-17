@@ -6,7 +6,7 @@
 .skills-container::after,
 .skills-container::before{
     content: "";
-    width: 28rem;
+    width: 30rem;
     height: 28rem;
     border-radius: 28.125rem;
     background: #7c66e3;

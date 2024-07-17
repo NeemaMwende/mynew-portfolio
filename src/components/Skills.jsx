@@ -36,7 +36,6 @@ const Skills = () => {
             ))}
         </div>
         
-
         <div className='skills-info'>
           <SkillsInfoCard 
             heading={selectedSkill.title}
