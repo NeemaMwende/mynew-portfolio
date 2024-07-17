@@ -29,7 +29,7 @@ const ContactForm = () => {
     };
 
     // Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_USER_ID' with your actual values
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID')
+    emailjs.send('service_ck8cm4a', 'template_bl0du4j', templateParams, 'AD5uQhpmjSLM8QZvv')
       .then(response => {
         alert('Form submitted successfully');
         setFormData({ firstname: '', lastname: '', email: '', message: '' });
