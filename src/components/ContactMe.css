@@ -1,0 +1,30 @@
+.contact-container{
+    margin: 4rem 0;
+    position: relative;
+}
+.contact-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.contact-content{
+    display: flex;
+    gap: 3rem;
+}
+.copywrite{
+    text-align: center;
+    margin: 30px;
+    line-height: 50px;
+}
+.copywrite p{
+    font-style: italic;
+}
+@media(max-width: 768px){
+    .contact-content{
+        flex-direction: column-reverse;
+    }
+    .contact-container h5{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
