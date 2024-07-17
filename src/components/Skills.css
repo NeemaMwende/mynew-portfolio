@@ -2,6 +2,7 @@
     margin: 4rem 0;
     position: relative;
     padding: 0 2rem;
+    margin-left: 50px;
 }
 .skills-container::after,
 .skills-container::before{
@@ -32,6 +33,7 @@
     display: flex;
     align-items: flex-start;
     gap: 5rem;
+    
 }
 .skills{
     flex: 1;

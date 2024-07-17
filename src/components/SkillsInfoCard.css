@@ -21,12 +21,14 @@
 }
 .skills-info{
     display: flex;
-    align-items: center;
+    margin-left: 10px;
+    /* align-items: center; */
     justify-content: space-between;
 }
 .skills-info p{
     font-size: 1rem;
     font-weight: 500;
+    align-items: flex-start;
 }
 .skill-info .percentage{
     color: #dd8cfa;
