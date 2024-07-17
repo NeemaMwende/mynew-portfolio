@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import emailjs from 'emailjs-com';
 import './ContactForm.css';
 
 const ContactForm = () => {
@@ -21,7 +21,15 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    axios.post('http://localhost:5000/contact', formData)
+    // Prepare template parameters
+    const templateParams = {
+      from_name: `${formData.firstname} ${formData.lastname}`,
+      from_email: formData.email,
+      message: formData.message,
+    };
+
+    // Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_USER_ID' with your actual values
+    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID')
       .then(response => {
         alert('Form submitted successfully');
         setFormData({ firstname: '', lastname: '', email: '', message: '' });
