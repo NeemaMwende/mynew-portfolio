@@ -5,7 +5,9 @@ import ParticlesConfig from '../components/config/ParticlesConfig'
 const Background = () => {
   return (
     <div>
-      
+      <Particles params={ParticlesConfig}>
+        
+      </Particles>
     </div>
   )
 }

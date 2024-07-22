@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import WorkExperience from './components/WorkExperience';
+import Background from './components/Background';
 // import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
             <WorkExperience />
             <Projects />
             <ContactMe />
-            
+            <Background />
           </div>
           <Footer />  
     </div>

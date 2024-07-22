@@ -1,8 +1,8 @@
 .experience-container {
-    margin: 4rem 0;
+    margin: 4rem auto; /* Center the container */
     position: relative;
     width: 80rem;
-    margin-left: 110px;
+    max-width: 90%; /* Ensure it doesn't overflow on smaller screens */
 }
 
 .experience-container h5 {
@@ -18,6 +18,7 @@
         margin-bottom: 2rem;
     }
 }
+
 .arrow-left,
 .arrow-right {
     width: 2.2rem;
@@ -34,7 +35,6 @@
     cursor: pointer;
     top: 50%;
     transform: translateY(-50%);
-    
 }
 
 .arrow-left {
@@ -45,13 +45,12 @@
     right: -2.5rem; /* Adjust for desktop view */
 }
 
-@media(max-width: 1025px) {
+@media (max-width: 1025px) {
     .arrow-left {
         left: -2rem; /* Adjust for tablet view */
     }
     .arrow-right {
         right: -2rem; /* Adjust for tablet view */
-}
 }
 
 @media (max-width: 768px) {
@@ -63,16 +62,10 @@
     }
     .experience-content {
         padding: 0 1rem; /* Add padding to ensure the content is not too close to the edges */
-        font-size: 30px;
     }
-    /* .experience-container{
-        height: 100px;
-        width: 20rem;
-        font-size: 30px;
-    } */
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .arrow-left, .arrow-right {
         width: 1.8rem; /* Adjust size for smaller screens */
         height: 1.8rem; /* Adjust size for smaller screens */
@@ -83,8 +76,10 @@
     .arrow-right {
         right: -1rem; /* Adjust for smaller screens */
     }
-    .experience-container{
-        height: 400px;
-        width: 350px;
+    .experience-container {
+        width: 100%; /* Make it full width */
+        max-width: 350px; /* Ensure it doesn't overflow */
+        margin: 2rem auto; /* Center the container */
     }
+}
 }

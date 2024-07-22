@@ -1,12 +1,14 @@
-.skills-info-card{
+.skills-info-card {
     min-height: 23rem;
     min-width: 35rem;
     border-radius: 20px;
     border: 1.5px solid #6751b9;
     background: rgba(22, 17, 47, 3.298);
     backdrop-filter: blur(1rem);
-}
-.skills-info-card h6{
+    margin: 1rem auto; /* Center the card and add some margin */
+  }
+  
+  .skills-info-card h6 {
     font-size: 1.2rem;
     font-weight: 500;
     padding: 0.0rem 2rem;
@@ -15,72 +17,85 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 1.5px solid #6751b9;
-}
-.skills-info-content{
+  }
+  
+  .skills-info-content {
     padding: 2rem;
-}
-.skills-info{
+  }
+  
+  .skills-info {
     display: flex;
     margin-left: 10px;
-    /* align-items: center; */
     justify-content: space-between;
-}
-.skills-info p{
+  }
+  
+  .skills-info p {
     font-size: 1rem;
     font-weight: 500;
     align-items: flex-start;
-}
-.skill-info .percentage{
+  }
+  
+  .skill-info .percentage {
     color: #dd8cfa;
-}
-.skill-progress-bg {
+  }
+  
+  .skill-progress-bg {
     width: 100%;
     height: 0.5rem;
     background: #382e68;
     border-radius: 0.5rem;
     margin: 1rem 0;
     overflow: hidden;
-}
-.skill-progress{
+  }
+  
+  .skill-progress {
     width: 0%;
     height: 0.5rem;
     background: linear-gradient(90deg, #aa94fe -50%, #7c5fe6 50%);
     border-radius: 0.5rem;
     transition: all 0.5s ease-in-out;
-}
-@media (max-width: 1025px) {
+  }
+  
+  @media (max-width: 1025px) {
+    .skills-info-card {
+      min-width: 30rem;
+    }
     .skills-info-card h6 {
-        font-size: 1.1rem;
+      font-size: 1.1rem;
     }
     .skill-info p {
-        font-size: 0.9rem;
+      font-size: 0.9rem;
     }
-    .skills-info-content{
-        padding: 1.5rem;
+    .skills-info-content {
+      padding: 1.5rem;
     }
-}
-/* Responsive design for mobile view */
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .skills-info-card {
-      width: 70%;
+      width: 90%;
       margin: 0 auto; /* Center the card in mobile view */
     }
   }
-@media (max-width: 425px) {
+  
+  @media (max-width: 425px) {
+    .skills-info-card {
+      width: 100%;
+      min-width: unset; /* Remove the min-width constraint for very small screens */
+      height: auto; /* Adjust height for better responsiveness */
+    }
     .skills-info-card h6 {
-        font-size: 1rem;
+      font-size: 1rem;
     }
     .skill-info p {
-        font-size: 0.8rem;
-    }
-    .skills-info-content{
-        padding: 1rem;
+      font-size: 0.8rem;
     }
     .skills-info-content {
-        width: 400px;
+      padding: 1rem;
     }
-    .skills-info-card{
-        width: 300px;
-        height: 300px;
+    .skills-info {
+      flex-direction: column; /* Stack elements vertically on small screens */
+      align-items: flex-start; /* Align items to the start */
     }
-}
+  }
+  

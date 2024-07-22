@@ -1,34 +1,75 @@
-.contact-container{
-    margin: 4rem 0;
+.contact-container {
+    margin: 4rem auto; /* Center the container horizontally */
     position: relative;
     width: 80%;
-    margin-left: 7rem;
-    
-}
-.contact-container h5{
+  }
+  
+  .contact-container h5 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 3rem;
-}
-.contact-content{
+    text-align: center; /* Center the heading for better aesthetics */
+  }
+  
+  .contact-content {
     display: flex;
     gap: 3rem;
     line-height: 30px;
-}
-.copywrite{
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  .copywrite {
     text-align: center;
     margin: 30px;
     line-height: 50px;
-}
-.copywrite p{
+  }
+  
+  .copywrite p {
     font-style: italic;
-}
-@media(max-width: 768px){
-    .contact-content{
-        flex-direction: column-reverse;
+  }
+  
+  @media (max-width: 1024px) {
+    .contact-container {
+      margin-left: 3rem; /* Adjust margin for medium screens */
     }
-    .contact-container h5{
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      width: 90%;
+      margin-left: 1rem; /* Adjust margin for smaller screens */
     }
-}
+  
+    .contact-container h5 {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+  
+    .contact-content {
+      flex-direction: column-reverse;
+      gap: 2rem; /* Adjust gap for smaller screens */
+      line-height: 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-container {
+      width: 95%;
+      margin-left: 0.5rem; /* Adjust margin for extra small screens */
+    }
+  
+    .contact-container h5 {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .contact-content {
+      gap: 1rem; /* Further adjust gap for extra small screens */
+    }
+  
+    .copywrite {
+      margin: 20px;
+      line-height: 40px;
+    }
+  }
+  

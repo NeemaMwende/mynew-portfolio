@@ -3,9 +3,10 @@
     position: relative;
     padding: 0 2rem;
     margin-left: 50px;
-}
-.skills-container::after,
-.skills-container::before{
+  }
+  
+  .skills-container::after,
+  .skills-container::before {
     content: "";
     width: 30rem;
     height: 28rem;
@@ -14,119 +15,139 @@
     position: absolute;
     z-index: -1;
     filter: blur(200px);
-} 
-.skills-container::after{
+  }
+  
+  .skills-container::after {
     top: -1rem;
     left: -5rem;
-}
-.skills-container::before{
+  }
+  
+  .skills-container::before {
     background: #9e51b9;
     bottom: 0rem;
     right: 0rem;
-}
-.skills-container h5{
+  }
+  
+  .skills-container h5 {
     font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 3.5rem;
-}
-.skills-content{
+  }
+  
+  .skills-content {
     display: flex;
     align-items: flex-start;
     gap: 5rem;
-    
-}
-.skills{
+  }
+  
+  .skills {
     flex: 1;
     display: grid;
     grid-gap: 3rem;
     grid-template-columns: repeat(2, 1fr);
-
-}
-.skills-info{
+  }
+  
+  .skills-info {
     flex: 1;
-}
-/* .skills iconUrl {
-    width: 20px;
-    height: 20px;
-} */
-@media (max-width: 1025px) {
+  }
+  
+  @media (max-width: 1025px) {
+    .skills-container {
+      padding-left: 1rem;
+    }
+  
+    .skills-content {
+      gap: 2rem;
+    }
+  
+    .skills-container h5 {
+      font-size: 1.3rem;
+      margin-bottom: 3rem;
+    }
+  
+    .skills-container::after,
+    .skills-container::before {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .skills-content {
+      flex-direction: column-reverse;
+      gap: 3rem;
+    }
+  
+    .skills,
+    .skills-info {
+      width: 100%;
+    }
+  
+    .skills-container h5 {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+  
+    .skills-container::after,
+    .skills-container::before {
+      width: 15rem;
+      height: 15rem;
+    }
+  
     .skills {
-        padding-left: 1rem;
+      grid-template-columns: repeat(1, 1fr);
     }
-    .skills,
-    .skills-content{
-        grid-gap: 2rem;
+  }
+  
+  @media (max-width: 600px) {
+    .skills-container {
+      padding: 0;
     }
-    .skills-container h5{
-        font-size: 1.3rem;
-        margin-bottom: 3rem;
+  
+    .skills-content {
+      gap: 2rem;
     }
+  
     .skills-container::after,
-    .skills-container::before{
-        width: 20rem;
-        height: 20rem;
+    .skills-container::before {
+      width: 10rem;
+      height: 10rem;
     }
-}
-@media (max-width: 768px) {
-    .skills-content{
-        flex-direction: column-reverse;
-        gap: 3rem;
+  
+    .skills-container h5 {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
     }
-    .skills,
-    .skills-info{
-        width: 100%;
+  
+    .skills {
+      grid-gap: 2rem;
     }
-    .skills-container h5{
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
-    }
+  }
+  
+  @media (max-width: 480px) {
     .skills-container::after,
-    .skills-container::before{
-        width: 15rem;
-        height: 15rem;
+    .skills-container::before {
+      width: 8rem;
+      height: 8rem;
     }
-    .skills{
-        grid-template-columns: repeat(1, 1fr);
-    
+  
+    .skills-container h5 {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
     }
-}
-@media (max-width: 600px) {
-    .skills-container{
-        padding: 0;
+  
+    .skills-content {
+      gap: 1.5rem;
     }
-    .skills-content{
-        gap: 2rem;
+  
+    .skills {
+      grid-gap: 1.5rem;
     }
-    .skills-container::after,
-    .skills-container::before{
-        width: 10rem;
-        height: 10rem;
+  
+    .skills-container {
+      width: 100%; /* Ensure full width on very small screens */
+      margin-left: 0; /* Remove left margin for small screens */
+      padding: 0 1rem; /* Add padding for small screens */
     }
-    .skills-container h5{
-        font-size: 1.2rem;
-        margin-bottom: 1.5rem;
-    }
-    .skills{
-        grid-gap: 2rem;
-    }
-}
-@media (max-width: 480px) {
-    .skills-container::after,
-    .skills-container::before{
-        width: 8rem;
-        height: 8rem;
-    }
-    .skills-container h5{
-        font-size: 1.1rem;
-        margin-bottom: 1rem;
-    }
-    .skills-content{
-        gap: 1.5rem;
-    }
-    .skills{
-        grid-gap: 1.5rem;
-    }
-    .skills-container{
-        width: 380px;
-    }
-}
+  }
+  

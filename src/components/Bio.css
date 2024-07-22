@@ -5,13 +5,14 @@
   position: relative;
   padding-top: 30px;
 }
-.slide-card{
 
+.slide-card {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation-delay: 20px;
 }
+
 .hero-container::after,
 .hero-container::before {
   content: "";
@@ -62,40 +63,40 @@
   justify-content: center;
   margin-right: 10rem;
 }
+
 .profile-img {
   height: 28rem;
   width: 30rem;
   border-radius: 40px;
-  /* max-width: 10rem; */
   object-fit: cover;
   margin-top: 70px;
   transition: all 0.3s ease;
-} 
+}
+
 .profile-img:hover {
   transform: translateY(-1.5rem);
-  transform: scale(20px);
 }
 
 @media (max-width: 1025px) {
-  .hero-container::after {
-    width: 40rem;
-    height: 40rem;
-    border-radius: 40rem;
+  .hero-container::after,
+  .hero-container::before {
+    width: 20rem;
+    height: 20rem;
   }
 
   .hero-container::after {
-    top: -5rem;
-    left: -10rem;
+    top: -3rem;
+    left: -5rem;
   }
 
   .hero-container::before {
-    bottom: 3rem;
+    bottom: 2rem;
     right: 0rem;
   }
 
   .hero-content h2 {
-    font-size: 4.5rem;
-    line-height: 6rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
   }
 
   .hero-content p {
@@ -104,7 +105,8 @@
   }
 
   .profile-img {
-    width: 8rem;
+    width: 20rem;
+    height: 20rem;
   }
 }
 
@@ -125,23 +127,23 @@
   }
 
   .profile-img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .hero-container::after,
-  .hero-container::before {
     width: 18rem;
     height: 18rem;
   }
 
+  .hero-container::after,
+  .hero-container::before {
+    width: 15rem;
+    height: 15rem;
+  }
+
   .hero-container::after {
-    top: 8rem;
-    left: 8rem;
+    top: 3rem;
+    left: 3rem;
   }
 
   .hero-container::before {
-    bottom: 2rem;
+    bottom: 1rem;
     right: 0rem;
   }
 }
@@ -157,23 +159,25 @@
     line-height: 1.4rem;
   }
 
-  /* .profile-img {
-    width: 5rem;
-  } */
+  .profile-img {
+    width: 12rem;
+    height: 12rem;
+    margin-left: 10rem;
+  }
 
   .hero-container::after,
   .hero-container::before {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
   }
 
   .hero-container::after {
-    top: 8rem;
-    left: 8rem;
+    top: 3rem;
+    left: 3rem;
   }
 
   .hero-container::before {
-    bottom: 2rem;
+    bottom: 1rem;
     right: 0rem;
   }
 }
