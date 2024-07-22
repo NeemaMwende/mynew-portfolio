@@ -1,7 +1,7 @@
 .projects-container {
   margin: 4rem auto; /* Center the container horizontally */
   position: relative;
-  width: 70%; /* Adjust container width */
+  width: 90%; /* Adjust container width */
   justify-content: center;
 }
 
@@ -10,11 +10,10 @@
   font-weight: 600;
   margin-bottom: 3rem;
   color: #eae8f3;
-  text-align: center;
 }
 
 .projects .arrow-left,
-.projects .arrow-right {
+ .projects .arrow-right {
   width: 2.2rem;
   height: 2.2rem;
   display: flex;
@@ -30,32 +29,28 @@
   cursor: pointer;
 }
 
-.arrow-left,
-.arrow-right {
+  .arrow-left,
+ .arrow-right {
   font-size: 2rem;
   font-weight: 500;
-  transform: translateY(-50%); 
+  transform: translate(800%, -400%); 
 }
 
 .arrow-left {
-  left: -2.5rem; /* Adjust for desktop view */
+  left: 0;
+  transform: translate(-100%, -50%); 
+  margin-left: -1px;
+  margin-top: 40px;
 }
 
 .arrow-right {
-  right: -2.5rem; /* Adjust for desktop view */
-}
-
-@media (max-width: 1025px) {
-  .arrow-left {
-    left: -2rem; /* Adjust for tablet view */
-  }
-  .arrow-right {
-    right: -2rem; /* Adjust for tablet view */
-}
-
+  right: 0;
+  transform: translate(100%, -50%); 
+  margin-right: -1px;
+  margin-top: 40px;
+} 
 .projects-info {
   position: relative;
-  text-align: center; /* Center the content inside each slide */
 }
 
 .project-slide {
@@ -68,20 +63,19 @@
   border: 2px solid #6751b9; 
   height: 28rem;
   width: 25rem;
+  border-radius: 40px;
   object-fit: cover;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  margin: auto; /* Center the image */
+  margin-left: 400px;
 }
-
 .projects-info img {
   transform: translateY(-0.5rem);
 }
-
-.information {
+.information{
   background: #130f2a;
   border-radius: 0.85rem;
   border: 1.5px solid #6751b9;
@@ -93,21 +87,24 @@
   margin-top: 50px;
   line-height: 30px;
 }
-
-span {
+span{
   color: #6751b9;
 }
-
-.project-slide img {
+.project-slide img{
   object-fit: fill;
-  object-position: center;
+  object-position: 5px;
   margin: auto;
-  width: 100%;
-  max-width: 1000px;
-  height: auto;
+  width: 1000px;
+  height: 500px;
+  /* height: 450px;
+  width: 400px; */
 }
 
 @media (max-width: 768px) {
+  /* .projects-container{
+    justify-content: center;
+    padding: auto;
+  } */
   .projects-container h5 {
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -125,19 +122,19 @@ span {
   }
 
   .arrow-left {
-    left: -1.5rem;
+    left: -1rem;
+    transform: translate(-100%, -50%);
   }
 
   .arrow-right {
-    right: -1.5rem;
+    right: -1rem;
+    transform: translate(100%, -50%);
   }
-
   .projects-info img {
     height: 350px;
     width: 300px;
   }
 }
-
 @media (max-width: 425px) {
   .projects-container h5 {
     font-size: 1.1rem;
@@ -156,16 +153,16 @@ span {
   }
 
   .arrow-left {
-    left: -1rem;
+    left: -0.5rem;
+    transform: translate(-100%, -50%);
   }
 
   .arrow-right {
-    right: -1rem;
+    right: -0.5rem;
+    transform: translate(100%, -50%);
   }
-
   .projects-info img {
     height: 280px;
-    width: 240px;
+    width: 320px;
   }
-}
 }
