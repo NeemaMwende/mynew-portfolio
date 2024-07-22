@@ -49,6 +49,7 @@ const Navbar = () => {
                                     {openMenu ? "close" : "menu"}
                             </span>
                         </button>
+                        <div id="particles-js" className="particles-js"></div>
                     </div>
                 </nav>
             </>
