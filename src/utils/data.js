@@ -74,35 +74,35 @@ export const SKILLS = [
 ];
 export const WORK_EXPERIENCE = [
     {
-        title: "Senior Frontend Developer at Tech Innovators",
-        date: "January 2022 - Present",
+        title: "React Developer at Glitex Solutions",
+        date: "January 2022 - September 2022",
         responsibilities: [
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-        ],
-    },
+            "Developed and maintained web applications using React.js and Redux",
+            "Collaborated with designers and backend developers to improve usability",
+            "Implemented responsive design to enhance user experience on mobile devices",
+            "Participated in code reviews and provided constructive feedback to peers"
+        ]
+    },    
     {
-        title: "Junior Web Developer at Digital Solutions",
-        date: "June 2020 - December 2021",
+        title: "Junior Developer at PLP",
+        date: "October 2019 - December 2020",
         responsibilities: [
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-        ],
-    },
+            "Built and maintained features for web applications using React.js",
+            "Integrated RESTful APIs to fetch and display data dynamically",
+            "Collaborated with senior developers to understand and implement new features",
+            "Wrote unit and integration tests to ensure code quality and functionality"
+        ]
+    },    
     {
-        title: "Frontend Intern at Web Studio",
-        date: "May 2019 - August 2019",
+        title: "Freelance Developer",
+        date: "January 2021 - Present",
         responsibilities: [
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-        ],
-    },
+            "Designed and developed custom websites for clients using React.js",
+            "Created reusable components and front-end libraries for future use",
+            "Worked with clients to gather requirements and provide technical solutions",
+            "Ensured the technical feasibility of UI/UX designs and optimized applications for maximum speed"
+        ]
+    },    
     {
         title: "React Developer at Glitex Solutions",
         date: "January 2022 - September 2022",
