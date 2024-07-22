@@ -7,6 +7,7 @@ import image6 from "../Images/movie.png";
 import image7 from "../Images/Todo.png";
 import image8 from "../Images/screenshot.png";
 import image9 from "../Images/hotel.png";
+import image10 from "../Images/blog.png";
 
 export const SKILLS = [
     {
@@ -56,6 +57,7 @@ export const SKILLS = [
             { skill: "MY SQL", percentage: "80%"},
             { skill: "Mongo DB", percentage: "90%"},
             { skill: "Postgres", percentage: "75%"},
+            { skill: "MariaDB", percentage: "60%"}
             // { skill: "", percentage: "90%"}
         ],
     },
@@ -64,7 +66,7 @@ export const SKILLS = [
         icon: image4,
         skills: [
             { skill: "AWS", percentage: "80%"},
-            { skill: "Google Cloud", percentage: "90%"},
+            { skill: "Render", percentage: "90%"},
             { skill: "Vercel", percentage: "75%"},
             { skill: "Firebase", percentage: "90%"}
         ],
@@ -113,6 +115,8 @@ export const WORK_EXPERIENCE = [
     },
 ];
 export const PROJECTS = [
+    { name: 'Blog App', description: 'A Blog application built on the MERN stack, enables users to create, edit, and delete blog posts with ease. It includes user authentication and a dynamic, responsive interface. MongoDB manages the database, Express.js and Node.js handle server-side logic, while React provides a seamless, interactive user experience.', 
+        image: image10, link: 'https://blog-application-6-6z2e.onrender.com/' },
     { name: 'Movie App', description: 'A React App that uses TvMazeApi API to fetch and display movies. One is also able to play the movie by being directed to their official site, or download the movie', 
     image: image6, link: 'https://movies-elx3ictfs-neemamwendes-projects.vercel.app/' },
     { name: 'Todo-List App', description: 'A todo list react app that enables one to manage their daily activities in an orderly manner.', 
