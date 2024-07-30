@@ -85,7 +85,7 @@ export const WORK_EXPERIENCE = [
     },    
     {
         title: "Junior Developer at PLP",
-        date: "October 2019 - December 2020",
+        date: "June 2024 - Present",
         responsibilities: [
             "Built and maintained features for web applications using React.js",
             "Integrated RESTful APIs to fetch and display data dynamically",
@@ -104,8 +104,8 @@ export const WORK_EXPERIENCE = [
         ]
     },    
     {
-        title: "React Developer at Glitex Solutions",
-        date: "January 2022 - September 2022",
+        title: "Lorem Lipsum",
+        date: "January 0000 - September 0000",
         responsibilities: [
           "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
           "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
