@@ -116,6 +116,7 @@ export const WORK_EXPERIENCE = [
         ],
     },
 ];
+
 export const PROJECTS = [
     { name: 'Blog Application', description: 'A Blog application built on the MERN stack, enables users to create, edit, and delete blog posts with ease. It includes user authentication and a dynamic, responsive interface. MongoDB manages the database, Express.js and Node.js handle server-side logic, while React provides a seamless, interactive user experience.', 
         image: image10, link: 'https://blog-application-6-6z2e.onrender.com/' },
