@@ -38,7 +38,7 @@ const Projects = () => {
       </div>
       <SlidingCard>
       <div className="projects-info">
-        <h5>My Projects</h5>
+        <h5><span>My </span>Projects</h5>
 
         <Slider ref={sliderRef} {...settings}>
           {PROJECTS.map((project, index) => (
