@@ -8,7 +8,7 @@ import image7 from "../Images/Todo.png";
 import image8 from "../Images/screenshot.png";
 import image9 from "../Images/hotel.png";
 import image10 from "../Images/blog.png";
-import image11 from "../Images/chat2.jpeg";
+import image11 from "../Images/hd1.jpeg";
 
 export const SKILLS = [
     {
