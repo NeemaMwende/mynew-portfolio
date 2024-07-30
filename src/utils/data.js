@@ -8,7 +8,7 @@ import image7 from "../Images/Todo.png";
 import image8 from "../Images/screenshot.png";
 import image9 from "../Images/hotel.png";
 import image10 from "../Images/blog.png";
-import image11 from "../Images/chat.jpeg";
+import image11 from "../Images/chat2.jpeg";
 
 export const SKILLS = [
     {
@@ -108,11 +108,11 @@ export const WORK_EXPERIENCE = [
         title: "Lorem Lipsum",
         date: "January 0000 - September 0000",
         responsibilities: [
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum "
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum "
         ],
     },
 ];
