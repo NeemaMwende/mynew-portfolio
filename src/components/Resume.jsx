@@ -36,7 +36,7 @@ const Resume = () => {
             <section className="education">
               <h2>Education</h2>
               <div className="education-item">
-                <h3>BOOTSTRAP | WORDPRESS | GRAPHIC DESIGN</h3>
+                <h3>DATABASE MANAGEMENT | WEB TECHNOLOGIES | FLUTTER</h3>
                 <p>2024 - Present</p>
                 <p>Power Learn Project PLP</p>
                 <p>Software Engineering</p>
@@ -44,14 +44,14 @@ const Resume = () => {
                 {/* <p>Expertise in front-end technologies including HTML5, CSS3, JavaScript, and frameworks like React.js. Ability to develop responsive and user-friendly web applications with a focus on performance and scalability.</p> */}
               </div>
               <div className="education-item">
-                <h3>BOOTSTRAP | WORDPRESS | GRAPHIC DESIGN</h3>
+                <h3>BOOTSTRAP | JAVASCRIPT | GRAPHIC DESIGN</h3>
                 <p>2013 - 2019</p>
                 <p>Chuka University</p>
                 <p>Bachelor of Science in Computer Science</p>
                 {/* <p>Expertise in front-end technologies including HTML5, CSS3, JavaScript, and frameworks like React.js. Ability to develop responsive and user-friendly web applications with a focus on performance and scalability.</p> */}
               </div>
               <div className="education-item">
-                <h3>BLACK | GRAY BOX TESTING | WHITE BOX TESTING</h3>
+                <h3>GENERAL EDUCATION</h3>
                 <p>2018 - 2014</p>
                 <p>St. Anne's Girls HighSchool</p>
                 <p>Kenya Certificate of Secondary Level</p>
