@@ -26,11 +26,11 @@ const Navbar = () => {
                         <img className='logo' src={angel} alt='' />
 
                         <ul>
-                            <li id='#home-section'><a className="menu-item" href='#home-section'>Home</a></li>
-                            <li id='#skills-section'><a className="menu-item" href='#skills-section'>Skills</a></li>
+                            <li id='#home-section'><a className="menu-item" href='/home-section'>Home</a></li>
+                            <li id='#skills-section'><a className="menu-item" href='skills-section'>Skills</a></li>
                             <li id='#work-section'><a className="menu-item" href='#work-section'>Work Experience</a></li>
                             <li id='#projects-section'><a className="menu-item" href='#projects-section'>Projects</a></li>
-                            <li id='#resume'><a className="menu-item" href='#resume'>Resume</a></li>
+                            <li id='#resume-container'><a className="menu-item" href='#resume'>Resume</a></li>
                             <li id='#contact-section'><a className="menu-item" href='#contact-section'>Contact Me</a></li>
 
                          <div className='btns'>

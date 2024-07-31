@@ -10,7 +10,7 @@ const Resume = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/path-to-your-cv.pdf';
+    link.href = './Neema_Mwende_Resume.pdf';
     link.download = 'Neema_Mwende_CV.pdf';
     document.body.appendChild(link);
     link.click();
