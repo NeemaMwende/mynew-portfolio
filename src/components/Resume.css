@@ -91,14 +91,21 @@ section {
   background-color: #4caf50;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 0.6rem;
+  background: linear-gradient(98deg, #a892fe 0%, #8054e8 100%);
+  padding: 0.7rem;
+  transition: all 0.3s ease;
+  width: 150px;
 }
 
+
 .resume-container button:hover {
-  background-color: #45a049;
+  /* background-color: #45a049; */
+  color: #a892fe;
+  background: transparent;
 }
 
 /* Responsive Layout */
