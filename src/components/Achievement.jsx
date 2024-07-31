@@ -21,8 +21,8 @@ const Achievement = () => {
     <section id="portfolio" className="portfolio">
       <div className="container">
         <div className="section-title">
-          <span>My Portfolio</span>
-          <h2>My Portfolio</h2>
+          {/* <span>My Portfolio</span> */}
+          <h2>My <span>Portfolio</span></h2>
           <p>Protecting and Developing high Quality Websites and Apps.</p>
         </div>
         <ul id="portfolio-filters" className="d-flex justify-content-center">

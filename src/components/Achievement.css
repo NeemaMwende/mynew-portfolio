@@ -7,14 +7,14 @@
     padding-bottom: 30px;
   }
   
-  .section-title span {
+  /* .section-title span {
     display: block;
     font-size: 36px;
     color: #6c757d;
-  }
+  } */
   
   .section-title h2 {
-    font-size: 32px;
+    font-size: 24px;
     margin: 10px 0;
     color: #fff;
   }
@@ -47,8 +47,9 @@
   }
   
   #portfolio-filters li.filter-active {
-    background: #28a745;
+    background: #883bbb;
     color: #fff;
+    width: 150px;
   }
   
   .portfolio-container {
@@ -69,8 +70,8 @@
   }
   
   .portfolio-img img {
-    width: 90%;
-    height: auto;
+    width: 400px;
+    height: 310px;
     transition: all 0.3s;
     border-radius: 20px;
   }
