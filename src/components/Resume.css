@@ -1,6 +1,5 @@
 /* Resume.css */
-/* 
-body {
+/* body {
   font-family: Arial, sans-serif;
   background-color: #121212;
   color: #fff;
@@ -8,9 +7,8 @@ body {
 
 .resume-container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto; /* Add margin for spacing around the edges */
   padding: 20px;
-  
 }
 
 .header {
@@ -29,7 +27,8 @@ body {
   line-height: 35px;
   text-align: left;
 }
-.summary{
+
+.summary {
   text-align: center;
 }
 
@@ -45,12 +44,17 @@ body {
 
 .leftalign {
   border-right: 5px solid purple;
-  padding-right: 20px;
+  /* padding-right: 20px; */
+  overflow: hidden; /* Ensure list items do not break to the next line */
+  white-space: nowrap; /* Ensure list items do not break to the next line */
+  margin-left: -100px;
 }
 
 .rightalign {
   padding-left: 20px;
   border-left: 5px solid purple;
+  overflow: hidden; /* Ensure list items do not break to the next line */
+  white-space: nowrap; /* Ensure list items do not break to the next line */
 }
 
 section {
@@ -75,13 +79,16 @@ section {
 }
 
 .resume-container ul {
-   list-style: disc; 
+  list-style: disc;
   padding-left: 50px;
+  overflow: hidden; /* Ensure list items do not break to the next line */
+  white-space: nowrap; /* Ensure list items do not break to the next line */
 }
 
-.resume-container.experience-item{
-  font-size: 10px;
+.resume-container .experience-item {
+  font-size: 15px;
 }
+
 .buttons {
   display: flex;
   justify-content: space-between;
@@ -91,7 +98,6 @@ section {
   background-color: #4caf50;
   color: #fff;
   border: none;
-  /* padding: 10px 20px; */
   cursor: pointer;
   font-size: 16px;
   border-radius: 0.6rem;
@@ -101,9 +107,7 @@ section {
   width: 150px;
 }
 
-
 .resume-container button:hover {
-  /* background-color: #45a049; */
   color: #a892fe;
   background: transparent;
 }
