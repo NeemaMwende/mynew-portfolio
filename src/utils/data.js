@@ -131,3 +131,69 @@ export const PROJECTS = [
     { name: 'Todo-List App', description: 'A todo list react app that enables one to manage their daily activities in an orderly manner.', 
             image: image7, link: 'https://todo-app-teal-phi-64.vercel.app/' },
   ];
+
+export const PORTFOLIOPROJECTS = [
+    {
+      category: 'filter-app',
+      img: image11,
+      title: 'Ethical Hacker',
+      description: 'Cisco',
+      detailsLink: 'https://www.credly.com/badges/ea128641-fa6a-4c47-8bfd-5ee4958d1516/public_url',
+    },
+    {
+      category: 'filter-web',
+      img: image7,
+      title: 'Web 3',
+      description: 'Web',
+      detailsLink: 'portfolio-details.html',
+    },
+    {
+      category: 'filter-app',
+      img: image11,
+      title: 'C Sharp',
+      description: '.NET',
+      detailsLink: 'https://www.freecodecamp.org/certification/fcc6af568b2-b8f5-41a7-8ed1-969f34621562/foundational-c-sharp-with-microsoft',
+    },
+    {
+      category: 'filter-card',
+      img: image11,
+      title: 'Card 2',
+      description: 'Card',
+      detailsLink: 'portfolio-details.html',
+    },
+    {
+      category: 'filter-web',
+      img: image11,
+      title: 'Web 2',
+      description: 'Web',
+      detailsLink: 'portfolio-details.html',
+    },
+    {
+      category: 'filter-app',
+      img: image11,
+      title: 'Cyber Security 101',
+      description: 'Simply Learn',
+      detailsLink: 'https://simpli-web.app.link/e/72XPIc3OvJb',
+    },
+    {
+      category: 'filter-card',
+      img: image11,
+      title: 'Card 1',
+      description: 'Card',
+      detailsLink: 'https://www.pinterest.com/pin/876724252436362699/',
+    },
+    {
+      category: 'filter-card',
+      img: image11,
+      title: 'Card 3',
+      description: 'Card',
+      detailsLink: 'portfolio-details.html',
+    },
+    {
+      category: 'filter-web',
+      img: image11,
+      title: 'Web 3',
+      description: 'Web',
+      detailsLink: 'portfolio-details.html',
+    },
+  ];

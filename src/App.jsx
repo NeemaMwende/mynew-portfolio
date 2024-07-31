@@ -8,6 +8,9 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import WorkExperience from './components/WorkExperience';
 import Resume from './components/Resume';
+import Achievement from './components/Achievement';
+import 'animate.css';
+
 // import Background from './components/Background';
 // import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -21,6 +24,7 @@ function App() {
             <WorkExperience />
             <Projects />
             <Resume />
+            <Achievement/>
             <ContactMe />
 
           </div>

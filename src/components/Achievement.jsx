@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Achievement.css';
+import portfolioItems from '../utils/data.js';
 
 const Achievement = () => {
   const [filter, setFilter] = useState('*');
@@ -8,71 +9,13 @@ const Achievement = () => {
     setFilter(category);
   };
 
-  const portfolioItems = [
-    {
-      category: 'filter-app',
-      img: 'assets/img/certificates/Cisco Cert.png',
-      title: 'Ethical Hacker',
-      description: 'Cisco',
-      detailsLink: 'https://www.credly.com/badges/ea128641-fa6a-4c47-8bfd-5ee4958d1516/public_url',
-    },
-    {
-      category: 'filter-web',
-      img: 'assets/img/portfolio/web1.jpeg',
-      title: 'Web 3',
-      description: 'Web',
-      detailsLink: 'portfolio-details.html',
-    },
-    {
-      category: 'filter-app',
-      img: 'assets/img/certificates/C sharp.png',
-      title: 'C Sharp',
-      description: '.NET',
-      detailsLink: 'https://www.freecodecamp.org/certification/fcc6af568b2-b8f5-41a7-8ed1-969f34621562/foundational-c-sharp-with-microsoft',
-    },
-    {
-      category: 'filter-card',
-      img: 'assets/img/portfolio/img2.jpeg',
-      title: 'Card 2',
-      description: 'Card',
-      detailsLink: 'portfolio-details.html',
-    },
-    {
-      category: 'filter-web',
-      img: 'assets/img/portfolio/web2.jpeg',
-      title: 'Web 2',
-      description: 'Web',
-      detailsLink: 'portfolio-details.html',
-    },
-    {
-      category: 'filter-app',
-      img: 'assets/img/certificates/Simply Learn.png',
-      title: 'Cyber Security 101',
-      description: 'Simply Learn',
-      detailsLink: 'https://simpli-web.app.link/e/72XPIc3OvJb',
-    },
-    {
-      category: 'filter-card',
-      img: 'assets/img/portfolio/img1.jpeg',
-      title: 'Card 1',
-      description: 'Card',
-      detailsLink: 'https://www.pinterest.com/pin/876724252436362699/',
-    },
-    {
-      category: 'filter-card',
-      img: 'assets/img/portfolio/img3.jpeg',
-      title: 'Card 3',
-      description: 'Card',
-      detailsLink: 'portfolio-details.html',
-    },
-    {
-      category: 'filter-web',
-      img: 'assets/img/portfolio/web3.jpeg',
-      title: 'Web 3',
-      description: 'Web',
-      detailsLink: 'portfolio-details.html',
-    },
-  ];
+  // Function to add animation effect
+  useEffect(() => {
+    const items = document.querySelectorAll('.portfolio-item');
+    items.forEach((item) => {
+      item.classList.add('animate__animated', 'animate__fadeIn');
+    });
+  }, []);
 
   return (
     <section id="portfolio" className="portfolio">
