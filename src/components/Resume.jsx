@@ -20,7 +20,7 @@ const Resume = () => {
   return (
     <div className="resume-container">
       <header className="header">
-        <h1>Neema Mwende</h1>
+        <h1>My <span>Resume</span></h1>
       </header>
       <main className="main">
         <div className='mydisplay'>
@@ -37,15 +37,25 @@ const Resume = () => {
               <h2>Education</h2>
               <div className="education-item">
                 <h3>BOOTSTRAP | WORDPRESS | GRAPHIC DESIGN</h3>
-                <p>2019 - 2020</p>
-                <p>Kibabii University Main Campus</p>
-                <p>Expertise in front-end technologies including HTML5, CSS3, JavaScript, and frameworks like React.js. Ability to develop responsive and user-friendly web applications with a focus on performance and scalability.</p>
+                <p>2024 - Present</p>
+                <p>Power Learn Project PLP</p>
+                <p>Software Engineering</p>
+                <p>Expertise in backend technologies including Node, Python</p>
+                {/* <p>Expertise in front-end technologies including HTML5, CSS3, JavaScript, and frameworks like React.js. Ability to develop responsive and user-friendly web applications with a focus on performance and scalability.</p> */}
+              </div>
+              <div className="education-item">
+                <h3>BOOTSTRAP | WORDPRESS | GRAPHIC DESIGN</h3>
+                <p>2013 - 2019</p>
+                <p>Chuka University</p>
+                <p>Bachelor of Science in Computer Science</p>
+                {/* <p>Expertise in front-end technologies including HTML5, CSS3, JavaScript, and frameworks like React.js. Ability to develop responsive and user-friendly web applications with a focus on performance and scalability.</p> */}
               </div>
               <div className="education-item">
                 <h3>BLACK | GRAY BOX TESTING | WHITE BOX TESTING</h3>
-                <p>2020 - 2023</p>
-                <p>Kibabii University Main Campus</p>
-                <p>Proficient in various penetration testing methodologies such as black box testing, white box testing, and grey box testing. Skilled in conducting vulnerability assessments and penetration tests using tools such as Metasploit, Nmap, Burp Suite, Wireshark, and Nessus.</p>
+                <p>2018 - 2014</p>
+                <p>St. Anne's Girls HighSchool</p>
+                <p>Kenya Certificate of Secondary Level</p>
+                {/* <p>Proficient in various penetration testing methodologies such as black box testing, white box testing, and grey box testing. Skilled in conducting vulnerability assessments and penetration tests using tools such as Metasploit, Nmap, Burp Suite, Wireshark, and Nessus.</p> */}
               </div>
             </section>
           </div>
@@ -53,25 +63,28 @@ const Resume = () => {
             <section className="experience">
               <h2>Professional Experience</h2>
               <div className="experience-item">
-                <h3>SENIOR GRAPHIC DESIGN SPECIALIST</h3>
-                <p>2019 - Present</p>
-                <p>Kenya, Nakuru County</p>
+                <h3>Freelance Developer</h3>
+                <p>2022 - Present</p>
+                <p>Kenya, Nairobi County</p>
                 <ul>
-                  <li>Lead in the design, development, and implementation of graphic, layout, and production communication materials.</li>
-                  <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
-                  <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design.</li>
-                  <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000.</li>
+                  <li>Lead in the design, development, and implementation of grahics</li>
+                  <li>Delegate tasks to the 7 members of the design team and provide.</li>
+                  <li>Supervise the assessment of all graphic materials in order to .</li>
+                  <li>Oversee the efficient use of production project budgets </li>
                 </ul>
               </div>
               <div className="experience-item">
-                <h3>GRAPHIC DESIGN SPECIALIST</h3>
-                <p>2017 - 2018</p>
-                <p>Stepping Stone Advertising, Kenya, Nakuru</p>
+                <h3>Glitex Solutions Company</h3>
+                <p>2022 - 2022</p>
+                <p>Kenya, Nairobi County</p>
                 <ul>
-                  <li>Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements).</li>
-                  <li>Managed up to 5 projects or tasks at a given time while under pressure.</li>
-                  <li>Recommended and consulted with clients on the most appropriate graphic design options based on their overall marketing goals.</li>
-                  <li>Created 4+ design presentations and proposals a month for clients and account managers.</li>
+                <li>Develop and maintain user interfaces using React.</li>
+                  <li>Create reusable components and libraries for future use.</li>
+                  {/* <li>Optimize components for maximum performance across web and mobile browsers.</li>
+                  <li>Collaborate with backend developers to integrate APIs and services.</li> */}
+                  <li>Ensure responsive design and cross-browser compatibility.</li>
+                  <li>Debug and troubleshoot issues in the application.</li>
+                  <li>Write clean, maintainable code following industry best practices.</li>
                 </ul>
               </div>
               {showMore && (

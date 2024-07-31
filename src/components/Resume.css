@@ -10,6 +10,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 .header {
@@ -18,38 +19,45 @@ body {
 }
 
 .header h1 {
-  font-size: 36px;
-  color: rgb(185, 72, 185);
+  font-size: 28px;
+  color: white;
 }
 
 .main {
   display: flex;
-  gap: 5rem;
+  gap: 7rem;
+  line-height: 35px;
+  text-align: left;
+}
+.summary{
+  text-align: center;
 }
 
 .mydisplay {
   display: flex;
   justify-content: space-between;
+  gap: 100px;
 }
 
 .leftalign, .rightalign {
-  flex: 1;
+  flex: 3;
 }
 
 .leftalign {
-  border-right: 2px solid purple;
+  border-right: 5px solid purple;
   padding-right: 20px;
 }
 
 .rightalign {
   padding-left: 20px;
+  border-left: 5px solid purple;
 }
 
 section {
   margin-bottom: 20px;
 }
 
-h2 {
+.resume-container h2 {
   font-size: 24px;
   color: #4caf50;
   border-bottom: 2px solid purple;
@@ -58,24 +66,28 @@ h2 {
 
 .education-item, .experience-item {
   margin-bottom: 15px;
+  border-bottom: 2px solid purple;
 }
 
-h3 {
+.resume-container h3 {
   font-size: 20px;
   color: purple;
 }
 
-ul {
-  list-style: disc;
-  padding-left: 20px;
+.resume-container ul {
+   list-style: disc; 
+  padding-left: 50px;
 }
 
+.resume-container.experience-item{
+  font-size: 10px;
+}
 .buttons {
   display: flex;
   justify-content: space-between;
 }
 
-button {
+.resume-container button {
   background-color: #4caf50;
   color: #fff;
   border: none;
@@ -85,7 +97,7 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
+.resume-container button:hover {
   background-color: #45a049;
 }
 
