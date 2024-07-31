@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Achievement.css';
-import portfolioItems from '../utils/data.js';
+import { portolioProjects } from '../utils/data.js';
 
 const Achievement = () => {
   const [filter, setFilter] = useState('*');
@@ -32,7 +32,7 @@ const Achievement = () => {
           <li onClick={() => handleFilter('filter-web')} className={filter === 'filter-web' ? 'filter-active' : ''}>Tools</li>
         </ul>
         <div className="row portfolio-container">
-          {portfolioItems.filter(item => filter === '*' || item.category === filter).map((item, index) => (
+          {portolioProjects.filter(item => filter === '*' || item.category === filter).map((item, index) => (
             <div key={index} className={`col-lg-4 col-md-6 portfolio-item ${item.category}`}>
               <div className="portfolio-img">
                 <img src={item.img} className="img-fluid" alt="" />

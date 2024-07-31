@@ -54,10 +54,13 @@
   .portfolio-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px; /* Space between grid items */
   }
   
   .portfolio-item {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust width and space between items */
     margin-bottom: 30px;
+    position: relative;
   }
   
   .portfolio-img {
@@ -66,7 +69,10 @@
   }
   
   .portfolio-img img {
+    width: 90%;
+    height: auto;
     transition: all 0.3s;
+    border-radius: 20px;
   }
   
   .portfolio-info {
@@ -105,5 +111,18 @@
   .portfolio-info .preview-link:hover,
   .portfolio-info .details-link:hover {
     color: #28a745;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .portfolio-item {
+      flex: 1 1 calc(50% - 20px); /* Two items per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-item {
+      flex: 1 1 100%; /* One item per row on small screens */
+    }
   }
   

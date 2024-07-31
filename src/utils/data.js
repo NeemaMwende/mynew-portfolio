@@ -9,6 +9,9 @@ import image8 from "../Images/screenshot.png";
 import image9 from "../Images/hotel.png";
 import image10 from "../Images/blog.png";
 import image11 from "../Images/hd1.jpeg";
+import image12 from "../Images/Completion badge V2.gif";
+import image13 from "../Images/doc1.pdf";
+import image14 from "../Images/hd.jpeg";
 
 export const SKILLS = [
     {
@@ -132,17 +135,17 @@ export const PROJECTS = [
             image: image7, link: 'https://todo-app-teal-phi-64.vercel.app/' },
   ];
 
-export const PORTFOLIOPROJECTS = [
+export const portolioProjects = [
     {
       category: 'filter-app',
-      img: image11,
+      img: image13,
       title: 'Ethical Hacker',
       description: 'Cisco',
       detailsLink: 'https://www.credly.com/badges/ea128641-fa6a-4c47-8bfd-5ee4958d1516/public_url',
     },
     {
       category: 'filter-web',
-      img: image7,
+      img: image11,
       title: 'Web 3',
       description: 'Web',
       detailsLink: 'portfolio-details.html',
@@ -170,7 +173,7 @@ export const PORTFOLIOPROJECTS = [
     },
     {
       category: 'filter-app',
-      img: image11,
+      img: image14,
       title: 'Cyber Security 101',
       description: 'Simply Learn',
       detailsLink: 'https://simpli-web.app.link/e/72XPIc3OvJb',
