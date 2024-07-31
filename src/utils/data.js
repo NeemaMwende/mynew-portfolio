@@ -12,6 +12,7 @@ import image11 from "../Images/hd1.jpeg";
 import image12 from "../Images/Completion badge V2.gif";
 import image13 from "../Images/doc1.pdf";
 import image14 from "../Images/hd.jpeg";
+import image15 from "../Images/chat.png"
 
 export const SKILLS = [
     {
@@ -123,8 +124,8 @@ export const WORK_EXPERIENCE = [
 export const PROJECTS = [
     { name: 'Blog Application', description: 'A Blog application built on the MERN stack, enables users to create, edit, and delete blog posts with ease. It includes user authentication and a dynamic, responsive interface. MongoDB manages the database, Express.js and Node.js handle server-side logic, while React provides a seamless, interactive user experience.', 
         image: image10, link: 'https://blog-application-6-6z2e.onrender.com/' },
-    { name: 'Chat Application', description: 'A MERN chat app with WebSocket integration enables real-time communication by utilizing MongoDB for data storage, Express.js and Node.js for server-side operations, and React for the client interface. WebSockets facilitate persistent, two-way communication between the client and server, allowing instant message delivery and updates without the need for frequent HTTP requests.', 
-            image: image11, link: 'https://todo-app-teal-phi-64.vercel.app/' },
+    { name: 'Chat Application', description: 'This chat application leverages Node.js for the backend and integrates with ChatEngine.io to handle real-time messaging. It utilizes react-chat-engine-pretty for a prebuilt, customizable UI, providing a seamless user experience. The application supports group chats, allowing multiple users to communicate within shared chat rooms efficiently.', 
+            image: image15, link: 'https://chatapplicationnodejs-2.onrender.com/' },
     { name: 'Movie Application', description: 'A React App that uses TvMazeApi API to fetch and display movies. One is also able to play the movie by being directed to their official site, or download the movie', 
             image: image6, link: 'https://movies-elx3ictfs-neemamwendes-projects.vercel.app/' },
     { name: 'Coffee Website', description: 'A React coffee App designed to showcase the different variaties of the brands of coffee.' 
