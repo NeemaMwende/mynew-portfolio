@@ -89,8 +89,24 @@ const Resume = () => {
               </div>
               {showMore && (
                 <div className="experience-item">
-                  <h3>ADDITIONAL EXPERIENCE</h3>
-                  <p>...</p>
+                  <h3>REFERENCES</h3>
+                  <div className='references'>
+                    <div>
+                      <p>PETER MUHIOA NJENGA<br/>
+                      CEO Glitex Solutions Limited<br/>
+                      14219 – 00100 Nairobi<br/>
+                      peter@glitexsolutions.co.ke<br/>
+                      0707021821</p>
+                    </div>
+                    <div>
+                    <p>PETER MUHIOA NJENGA<br/>
+                    CEO Glitex Solutions Limited<br/>
+                    14219 – 00100 Nairobi<br/>
+                    peter@glitexsolutions.co.ke<br/>
+                    0707021821</p>
+                    </div>
+                  </div>
+                <p><span>Hobbies:</span><small>Skating, Reading Novels, Salsa Dancing, Watching</small></p>
                 </div>
               )}
             </section>

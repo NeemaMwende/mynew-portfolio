@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Achievement.css';
 import { portolioProjects } from '../utils/data.js';
+import 'animate.css'
 
 const Achievement = () => {
   const [filter, setFilter] = useState('*');

@@ -124,3 +124,7 @@ section {
     padding-left: 0;
   }
 }
+.references{
+  display: flex;
+  gap: 60px;
+}

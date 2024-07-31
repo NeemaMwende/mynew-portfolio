@@ -111,11 +111,11 @@ export const WORK_EXPERIENCE = [
         title: "Lorem Lipsum",
         date: "January 0000 - September 0000",
         responsibilities: [
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum "
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum  ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum  "
         ],
     },
 ];
@@ -177,26 +177,26 @@ export const portolioProjects = [
       title: 'Cyber Security 101',
       description: 'Simply Learn',
       detailsLink: 'https://simpli-web.app.link/e/72XPIc3OvJb',
-    },
-    {
-      category: 'filter-card',
-      img: image11,
-      title: 'Card 1',
-      description: 'Card',
-      detailsLink: 'https://www.pinterest.com/pin/876724252436362699/',
-    },
-    {
-      category: 'filter-card',
-      img: image11,
-      title: 'Card 3',
-      description: 'Card',
-      detailsLink: 'portfolio-details.html',
-    },
-    {
-      category: 'filter-web',
-      img: image11,
-      title: 'Web 3',
-      description: 'Web',
-      detailsLink: 'portfolio-details.html',
-    },
+    }
+    // {
+    //   category: 'filter-card',
+    //   img: image11,
+    //   title: 'Card 1',
+    //   description: 'Card',
+    //   detailsLink: 'https://www.pinterest.com/pin/876724252436362699/',
+    // },
+    // {
+    //   category: 'filter-card',
+    //   img: image11,
+    //   title: 'Card 3',
+    //   description: 'Card',
+    //   detailsLink: 'portfolio-details.html',
+    // },
+    // {
+    //   category: 'filter-web',
+    //   img: image11,
+    //   title: 'Web 3',
+    //   description: 'Web',
+    //   detailsLink: 'portfolio-details.html',
+    // },
   ];
