@@ -10,7 +10,8 @@ import WorkExperience from './components/WorkExperience';
 import Resume from './components/Resume';
 import Achievement from './components/Achievement';
 import 'animate.css';
-import RotatingBalls from './components/Rotatingballs';
+import TextShpere from './components/TextSphere';
+// import RotatingBalls from './components/Rotatingballs';
 
 // import Background from './components/Background';
 // import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -26,7 +27,8 @@ function App() {
             <Projects />
             <Resume />
             <Achievement/>
-            <RotatingBalls/>
+            <TextShpere/>
+            {/* <RotatingBalls/> */}
             <ContactMe />
 
           </div>
