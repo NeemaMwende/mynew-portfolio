@@ -13,6 +13,9 @@ import image12 from "../Images/Completion badge V2.gif";
 import image13 from "../Images/doc1.pdf";
 import image14 from "../Images/hd.jpeg";
 import image15 from "../Images/chat.png"
+import cert from  "../Images/cert.png";
+import python from  "../Images/python.png";
+import react from   "../Images/react.png";
 
 export const SKILLS = [
     {
@@ -139,42 +142,42 @@ export const PROJECTS = [
 export const portolioProjects = [
     {
       category: 'filter-app',
-      img: image11,
+      img: cert,
       title: 'NodeJs ',
       description: 'pirple',
       detailsLink: 'https://www.credly.com/badges/ea128641-fa6a-4c47-8bfd-5ee4958d1516/public_url',
     },
     {
       category: 'filter-web',
-      img: image11,
+      img: react,
       title: 'React',
       description: 'Pirple',
       detailsLink: 'portfolio-details.html',
     },
     {
       category: 'filter-app',
-      img: image11,
+      img: cert,
       title: 'ExpressJs',
       description: '.NET',
       detailsLink: 'https://www.freecodecamp.org/certification/fcc6af568b2-b8f5-41a7-8ed1-969f34621562/foundational-c-sharp-with-microsoft',
     },
     {
       category: 'filter-card',
-      img: image11,
+      img: python,
       title: 'Python',
       description: 'Card',
       detailsLink: 'portfolio-details.html',
     },
     {
       category: 'filter-web',
-      img: image11,
+      img: cert,
       title: 'Node',
       description: 'Web',
       detailsLink: 'portfolio-details.html',
     },
     {
       category: 'filter-app',
-      img: image14,
+      img: react,
       title: 'Cyber Security 101',
       description: 'Simply Learn',
       detailsLink: 'https://simpli-web.app.link/e/72XPIc3OvJb',

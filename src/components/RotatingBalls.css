@@ -1,0 +1,58 @@
+.rotating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: rotate 10s infinite linear;
+  }
+  
+  .ball:nth-child(1) {
+    background-color: #ff6347; /* Tomato */
+    animation-delay: 0s;
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  
+  .ball:nth-child(2) {
+    background-color: #4682b4; /* Steel Blue */
+    /* animation-delay: 2.5s; */
+    transform: rotate(90deg) translateX(100px) rotate(-90deg);
+  }
+  
+  .ball:nth-child(3) {
+    background-color: #32cd32; /* Lime Green */
+    /* animation-delay: 5s; */
+    transform: rotate(180deg) translateX(100px) rotate(-180deg);
+  }
+  
+  .ball:nth-child(4) {
+    background-color: #ff8c00; /* Dark Orange */
+    /* animation-delay: 7.5s; */
+    transform: rotate(270deg) translateX(100px) rotate(-270deg);
+  }
+  
+  .icon {
+    color: white;
+    font-size: 24px;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
