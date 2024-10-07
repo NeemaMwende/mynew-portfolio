@@ -13,9 +13,9 @@ const WorkExperience = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 900,
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     arrows: false,
     responsive: [
       {

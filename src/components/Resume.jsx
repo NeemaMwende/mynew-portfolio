@@ -18,7 +18,7 @@ const Resume = () => {
   };
 
   return (
-    <div className="resume-container">
+    <div className="resume-container" id='resume-section'>
       <header className="header">
         <h1>My <span>Resume</span></h1>
       </header>

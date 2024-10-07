@@ -46,7 +46,7 @@ const Bio = () => {
   });
 
   return (
-    <section className='hero-container' id='home-section'>
+    <section className='hero-container' id="home-section">
         <SlidingCard>
         <div className='hero-content slide-card'>
           <h2>Building Digital <br/> <span>Experiences </span>That Inspire</h2>
