@@ -5,7 +5,7 @@ import "./TextShpere.css";
 // Importing TagCloud package
 import TagCloud from "TagCloud";
 
-const TextShpere = () => {
+const TextSphere = () => {
   // Animation settings for Text Cloud
   useEffect(() => {
     return () => {
@@ -47,4 +47,4 @@ const TextShpere = () => {
   );
 };
 
-export default TextShpere;
+export default TextSphere;

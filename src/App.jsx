@@ -12,7 +12,7 @@ import Achievement from './components/Achievement';
 import TextSphere from './components/TextSphere'; // Fixed typo
 import Loading from './Loading'; // Import the Loading component
 import 'animate.css';
-import RotatingBalls from './components/Rotatingballs';
+//import RotatingBalls from './components/Rotatingballs';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,7 +39,6 @@ function App() {
             <Resume />
             <Achievement />
             <TextSphere />
-            <RotatingBalls />
             <ContactMe />
           </div>
           <Footer />
