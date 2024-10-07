@@ -1,21 +1,23 @@
-import image1 from "../Images/tool.png";
-import image2 from "../Images/tool.png";
-import image3 from "../Images/tool.png";
+// import image1 from "../Images/tool.png";
+// import image2 from "../Images/tool.png";
+// import image3 from "../Images/tool.png";
 import image4 from "../Images/soft.png";
-import image5 from "../Images/image1.jpg";
+// import image5 from "../Images/image1.jpg";
 import image6 from "../Images/movie.png";
 import image7 from "../Images/Todo.png";
 import image8 from "../Images/screenshot.png";
 import image9 from "../Images/hotel.png";
 import image10 from "../Images/blog.png";
-import image11 from "../Images/hd1.jpeg";
-import image12 from "../Images/Completion badge V2.gif";
+// import image11 from "../Images/hd1.jpeg";
+// import image12 from "../Images/Completion badge V2.gif";
 import image13 from "../Images/doc1.pdf";
-import image14 from "../Images/hd.jpeg";
+// import image14 from "../Images/hd.jpeg";
 import image15 from "../Images/chat.png"
 import cert from  "../Images/cert.png";
-import python from  "../Images/python.png";
-import react from   "../Images/react.png";
+import pythonhack from  "../Images/pythonhackathon.png";
+import react from   "../Images/pythonhackathon.png";
+import dt from "../Images/datascience.webp";
+import python from "../Images/pythonhackathon.png";
 
 export const SKILLS = [
     {
@@ -142,42 +144,42 @@ export const PROJECTS = [
 export const portolioProjects = [
     {
       category: 'filter-app',
-      img: cert,
+      img: python,
       title: 'NodeJs ',
       description: 'pirple',
       detailsLink: 'https://www.credly.com/badges/ea128641-fa6a-4c47-8bfd-5ee4958d1516/public_url',
     },
     {
       category: 'filter-web',
-      img: react,
+      img: python,
       title: 'React',
       description: 'Pirple',
       detailsLink: 'portfolio-details.html',
     },
     {
       category: 'filter-app',
-      img: cert,
+      img: python,
       title: 'ExpressJs',
       description: '.NET',
       detailsLink: 'https://www.freecodecamp.org/certification/fcc6af568b2-b8f5-41a7-8ed1-969f34621562/foundational-c-sharp-with-microsoft',
     },
     {
       category: 'filter-card',
-      img: python,
+      img: pythonhack,
       title: 'Python',
       description: 'Card',
       detailsLink: 'portfolio-details.html',
     },
     {
       category: 'filter-web',
-      img: cert,
+      img: react,
       title: 'Node',
       description: 'Web',
       detailsLink: 'portfolio-details.html',
     },
     {
       category: 'filter-app',
-      img: react,
+      img: dt,
       title: 'Cyber Security 101',
       description: 'Simply Learn',
       detailsLink: 'https://simpli-web.app.link/e/72XPIc3OvJb',
