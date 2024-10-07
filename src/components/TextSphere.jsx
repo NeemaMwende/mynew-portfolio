@@ -4,6 +4,7 @@ import "./TextShpere.css";
 
 // Importing TagCloud package
 import TagCloud from "TagCloud";
+//import TagCloud from "tagcloud";
 
 const TextSphere = () => {
   // Animation settings for Text Cloud
@@ -27,7 +28,7 @@ const TextSphere = () => {
       ];
 
       const options = {
-        radius: 300,
+        radius: 250,
         maxSpeed: "normal",
         initSpeed: "normal",
         keep: true,
