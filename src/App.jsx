@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import WorkExperience from './components/WorkExperience';
-import Resume from './components/Resume';
+//import Resume from './components/Resume';
 import Achievement from './components/Achievement';
 import TextSphere from './components/TextSphere'; 
 import Loading from './Loading'; // Import the Loading component
@@ -36,7 +36,7 @@ function App() {
             <Skills />
             <WorkExperience />
             <Projects />
-            <Resume />
+            {/* <Resume /> */}
             <Achievement />
             <TextSphere />
             <ContactMe />
