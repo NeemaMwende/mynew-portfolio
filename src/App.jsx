@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 import WorkExperience from './components/WorkExperience';
 import Resume from './components/Resume';
 import Achievement from './components/Achievement';
-import TextSphere from './components/TextSphere'; // Fixed typo
+import TextSphere from './components/TextSphere'; 
 import Loading from './Loading'; // Import the Loading component
 import 'animate.css';
 //import RotatingBalls from './components/Rotatingballs';
