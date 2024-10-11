@@ -1,7 +1,7 @@
 .projects-container {
   margin: 4rem auto; /* Center the container horizontally */
   position: relative;
-  width: 90%; /* Adjust container width */
+  width: 80%; /* Adjust container width */
   justify-content: center;
 }
 
@@ -65,7 +65,7 @@
   width: 25rem;
   border-radius: 40px;
   object-fit: cover;
-  transition: all 0.3s ease;
+  transition: all 0.9s ease;
   display: flex;
   align-items: center;
   justify-content: center;

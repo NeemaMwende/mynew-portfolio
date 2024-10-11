@@ -29,7 +29,7 @@
 import React from 'react';
 // import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa'; // Importing icons from Font Awesome
 import "./Bio.css";
-import angel from '../Images/image1.jpg';
+import angel from '../Images/me.png';
 import SlidingCard from './SlidingCard';
 import { useScroll, animated } from '@react-spring/web';
 import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
@@ -37,7 +37,7 @@ import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 const Bio = () => {
   const { scrollYProgress } = useScroll();
   const [text] = useTypewriter({
-    words: ["MERN Developer.", "Full Stack Developer.", "JavaScript Developer", "BackEnd Developer"],
+    words: ["MERN Developer.", "Full Stack Developer.", "JavaScript Developer", "BackEnd Developer", "Python Developer"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
