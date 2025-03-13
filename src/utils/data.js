@@ -8,12 +8,7 @@ import image7 from "../Images/Todo.png";
 import image8 from "../Images/screenshot.png";
 import image9 from "../Images/hotel.png";
 import image10 from "../Images/blog.png";
-// import image11 from "../Images/hd1.jpeg";
-// import image12 from "../Images/Completion badge V2.gif";
-import image13 from "../Images/doc1.pdf";
-// import image14 from "../Images/hd.jpeg";
 import image15 from "../Images/chat.png"
-import cert from  "../Images/cert.png";
 import pythonhack from  "../Images/pythonhackathon.png";
 import react from   "../Images/pythonhackathon.png";
 import dt from "../Images/datascience.webp";
@@ -25,7 +20,7 @@ export const SKILLS = [
         title: "Frontend",
         icon: image4,
         skills: [
-            { skill: "HTML5 & CSS", percentage: "80%"},
+            { skill: "Vue", percentage: "80%"},
             { skill: "Javascript", percentage: "98%"},
             { skill: "React.Js", percentage: "88%"},
             { skill: "Next.js", percentage: "80%"}
@@ -95,7 +90,7 @@ export const WORK_EXPERIENCE = [
         ]
     },    
     {
-        title: "Junior Software Developer at PLP",
+        title: "Junior Software Developer - PLP",
         date: "June 2024 - Present",
         responsibilities: [
             "Built and maintained features for web applications using React.js",
@@ -105,31 +100,43 @@ export const WORK_EXPERIENCE = [
         ]
     },    
     {
-        title: "Freelance Developer",
-        date: "January 2021 - Present",
-        responsibilities: [
-            "Designed and developed custom websites for clients using React.js",
-            "Created reusable components and front-end libraries for future use",
-            "Worked with clients to gather requirements and provide technical solutions",
-            "Ensured the technical feasibility of UI/UX designs and optimized applications for maximum speed"
-        ]
-    },    
-    {
-        title: "Lorem Lipsum",
-        date: "January 0000 - September 0000",
-        responsibilities: [
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum  ",
-          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum  "
-        ],
-    },
+            title: "Software Developer Intern - Zaptech",
+            date: "October 2024 - December 2024",
+            responsibilities: [
+                "Developed and maintained websites using Next.js",
+                "Built reusable UI components for scalability",
+                "Collaborated with clients to refine technical solutions",
+                "Optimized web applications for performance and accessibility"
+            ]
+        },
+        {
+            title: "Software Developer - BitterBrains",
+            date: "January 2025 - Present",
+            responsibilities: [
+                "Worked with Next.js, Vue.js, and Markdown",
+                "Developed reusable libraries and front-end tools",
+                "Improved site performance and SEO optimization",
+                "Contributed to documentation and code reviews"
+            ]
+        }
+    
 ];
 
 export const PROJECTS = [
+    { name: 'VisualEditor', description: 'Nextjs VisualEditor for creating questions and answers and automatically generating markdown files.',
+        image: bot, link: 'visual-editor-3ih8.vercel.app/' },
+    { name: 'Pdf-question-search', description: 'A Next.js + OpenAI-powered web app that allows users to upload PDFs, extract text, generate questions, and get AI-powered answers based on the document content.',
+        image: bot, link: 'pdf-question-search.vercel.app' },
+    { name: 'Personal Finance Tracker', description: 'Tech Stack : Nextjs, OpenAI GPT, Chartjs, REST APIs, WebSockets, NextAuth, Dockerization, Internationalization',
+        image: bot, link: 'next-auth-three-swart.vercel.app' },    
+    { name: 'NextDasboard', description: 'Dashboard project - Nextjs(Streaming, skeletons, parallel data fetching, dynamic rendering, pnpm package). Postgress Database,',
+        image: bot, link: 'next-dashboard-ruby-ten.vercel.app' },
     { name: 'NeemaBot', description: 'An  AI-powered chatbot for mental health support',
         image: bot, link: 'https://ai-powered-chatbot-2.onrender.com' },
+    { name: 'Learning Management System', description: 'a fully functional LMS using Django Rest Framework for backend APIs and React for a dynamic, user-friendly frontend. The platform supports seamless payments through Stripe and PayPal,',
+        image: bot, link: '' },
+    { name: 'Chatgpt Clone', description: 'This project is a ChatGPT clone built with React for the frontend, Flask for the backend, and OpenAIs GPT-3.5-turbo model for generating responses. It features a user-friendly chat interface',
+        image: bot, link: '' },
     { name: 'Blog Application', description: 'A Blog application built on the MERN stack, enables users to create, edit, and delete blog posts with ease. It includes user authentication and a dynamic, responsive interface. MongoDB manages the database, Express.js and Node.js handle server-side logic, while React provides a seamless, interactive user experience.', 
         image: image10, link: 'https://blog-application-6-6z2e.onrender.com/' },
     { name: 'Chat Application', description: 'This chat application leverages Node.js for the backend and integrates with ChatEngine.io to handle real-time messaging. It utilizes react-chat-engine-pretty for a prebuilt, customizable UI, providing a seamless user experience. The application supports group chats, allowing multiple users to communicate within shared chat rooms efficiently.', 

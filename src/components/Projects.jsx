@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Projects.css';
-import angel from "../Images/movie.png";
+// import angel from "../Images/movie.png";
 import { useRef } from 'react';
 import { PROJECTS } from "../../src/utils/data";
 import SlidingCard from './SlidingCard';
