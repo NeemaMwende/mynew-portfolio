@@ -110,7 +110,7 @@ export const WORK_EXPERIENCE = [
             ]
         },
         {
-            title: "Software Developer - BitterBrains",
+            title: "Software Developer Intern - BitterBrains",
             date: "January 2025 - Present",
             responsibilities: [
                 "Worked with Next.js, Vue.js, and Markdown",
