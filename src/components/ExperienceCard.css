@@ -4,7 +4,7 @@
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
     margin: 0 1rem;
-    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    box-sizing: border-box;
 }
 
 .work-experience-card h6 {
@@ -47,20 +47,20 @@
 
 @media(max-width: 768px) {
     .work-experience-card {
-        margin: 0.5rem 0; /* Reduce margin for smaller screens */
-        padding: 1rem; /* Adjust padding for smaller screens */
+        margin: 0.5rem 0;
+        padding: 1rem; 
     }
     .work-experience-card h6 {
-        font-size: 1rem; /* Adjust font size for smaller screens */
+        font-size: 1rem;
     }
     .work-experience-card ul li {
-        font-size: 0.75rem; /* Adjust font size for smaller screens */
+        font-size: 0.75rem; 
     }
 }
 
 @media(max-width: 480px) {
     .work-duration {
-        font-size: 0.6rem; /* Adjust font size for smaller screens */
+        font-size: 0.6rem; 
     }
 }
 

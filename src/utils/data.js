@@ -113,10 +113,6 @@ export const WORK_EXPERIENCE = [
             title: "Software Developer Intern - BitterBrains",
             date: "January 2025 - Present",
             responsibilities: [
-                // "Worked with Next.js, Vue.js, and Markdown",
-                // "Developed reusable libraries and front-end tools",
-                // "Improved site performance and SEO optimization",
-                // "Contributed to documentation and code reviews"
                 "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
                 "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
                 "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
