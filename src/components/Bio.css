@@ -43,7 +43,7 @@
 }
 
 .hero-content h2 {
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 5rem;
   margin-bottom: 1rem;
@@ -65,8 +65,8 @@
 }
 
 .profile-img {
-  height: 28rem;
-  width: 30rem;
+  height: 24rem;
+  width: 26rem;
   border-radius: 40px;
   object-fit: cover;
   margin-top: 70px;

@@ -1,11 +1,11 @@
 .skills-info-card {
-    min-height: 23rem;
-    min-width: 35rem;
+    min-height: 20rem;
+    min-width: 30rem;
     border-radius: 20px;
     border: 1.5px solid #6751b9;
     background: rgba(22, 17, 47, 3.298);
     backdrop-filter: blur(1rem);
-    margin: 1rem auto; /* Center the card and add some margin */
+    margin: 1rem auto;
   }
   
   .skills-info-card h6 {
@@ -75,15 +75,15 @@
   @media (max-width: 768px) {
     .skills-info-card {
       width: 90%;
-      margin: 0 auto; /* Center the card in mobile view */
+      margin: 0 auto; 
     }
   }
   
   @media (max-width: 425px) {
     .skills-info-card {
       width: 100%;
-      min-width: unset; /* Remove the min-width constraint for very small screens */
-      height: auto; /* Adjust height for better responsiveness */
+      min-width: unset; 
+      height: auto; 
     }
     .skills-info-card h6 {
       font-size: 1rem;
@@ -95,8 +95,8 @@
       padding: 1rem;
     }
     .skills-info {
-      flex-direction: column; /* Stack elements vertically on small screens */
-      align-items: flex-start; /* Align items to the start */
+      flex-direction: column; 
+      align-items: flex-start; 
     }
   }
   

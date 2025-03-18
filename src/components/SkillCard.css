@@ -8,8 +8,11 @@
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease;
-    height: 100px;
-    width: 300px;
+    height: 70px;
+    width: 200px;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
 }
 
 .skills-card:hover,
@@ -18,14 +21,18 @@
 }
 
 .skills-card span {
-    font-size: 1.3rem;
+    font-size: 1rem; 
     font-weight: 500;
-    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    width: 100%; 
 }
 
 .skill-icon {
     width: 2.5rem;
-    height: 2.5rem;
+    height: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;

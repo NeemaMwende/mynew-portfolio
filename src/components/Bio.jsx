@@ -3,11 +3,11 @@ import React from 'react';
 import "./Bio.css";
 import angel from '../Images/me.png';
 import SlidingCard from './SlidingCard';
-import { useScroll, animated } from '@react-spring/web';
-import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
+import { useScroll } from '@react-spring/web';
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 const Bio = () => {
-  const { scrollYProgress } = useScroll();
+  useScroll();
   const [text] = useTypewriter({
     words: ["MERN Developer.", "Full Stack Developer.", "JavaScript Developer", "BackEnd Developer", "Python Developer"],
     loop: true,
