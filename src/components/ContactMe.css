@@ -1,5 +1,5 @@
 .contact-container {
-    margin: 4rem auto; /* Center the container horizontally */
+    margin: 4rem auto; 
     position: relative;
     width: 80%;
   }
@@ -8,14 +8,14 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 3rem;
-    text-align: center; /* Center the heading for better aesthetics */
+    text-align: center; 
   }
   
   .contact-content {
     display: flex;
     gap: 3rem;
     line-height: 30px;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center; 
   }
   
   .copywrite {
@@ -24,20 +24,29 @@
     line-height: 50px;
   }
   
+  .urls a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.urls a:hover {
+    color: #717bad; 
+}
+
   .copywrite p {
     font-style: italic;
   }
   
   @media (max-width: 1024px) {
     .contact-container {
-      margin-left: 3rem; /* Adjust margin for medium screens */
+      margin-left: 3rem;
     }
   }
   
   @media (max-width: 768px) {
     .contact-container {
       width: 90%;
-      margin-left: 1rem; /* Adjust margin for smaller screens */
+      margin-left: 1rem; 
     }
   
     .contact-container h5 {
@@ -47,7 +56,7 @@
   
     .contact-content {
       flex-direction: column-reverse;
-      gap: 2rem; /* Adjust gap for smaller screens */
+      gap: 2rem; 
       line-height: 25px;
     }
   }
@@ -55,7 +64,7 @@
   @media (max-width: 480px) {
     .contact-container {
       width: 95%;
-      margin-left: 0.5rem; /* Adjust margin for extra small screens */
+      margin-left: 0.5rem;
     }
   
     .contact-container h5 {
@@ -64,7 +73,7 @@
     }
   
     .contact-content {
-      gap: 1rem; /* Further adjust gap for extra small screens */
+      gap: 1rem; 
     }
   
     .copywrite {

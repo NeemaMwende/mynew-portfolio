@@ -13,7 +13,13 @@ import pythonhack from  "../Images/pythonhackathon.png";
 import react from   "../Images/pythonhackathon.png";
 import dt from "../Images/datascience.webp";
 import python from "../Images/pythonhackathon.png";
-import bot from "../Images/Bot 1.png";
+//import bot from "../Images/Bot 1.png";
+import one from "../Images/11.webp";
+import two from "../Images/22.webp";
+import three from "../Images/33.webp";
+import four from "../Images/44.webp";
+import five from "../Images/55.webp";
+import six from "../Images/66.webp";
 
 export const SKILLS = [
     {
@@ -117,7 +123,7 @@ export const WORK_EXPERIENCE = [
                 "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
                 "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
                 "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-                "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
+              
             ]
         }
     
@@ -125,19 +131,19 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
     { name: 'VisualEditor', description: 'Nextjs VisualEditor for creating questions and answers and automatically generating markdown files.',
-        image: bot, link: 'visual-editor-3ih8.vercel.app/' },
+        image: five, link: 'visual-editor-3ih8.vercel.app/' },
     { name: 'Pdf-question-search', description: 'A Next.js + OpenAI-powered web app that allows users to upload PDFs, extract text, generate questions, and get AI-powered answers based on the document content.',
-        image: bot, link: 'pdf-question-search.vercel.app' },
+        image: four, link: 'pdf-question-search.vercel.app' },
     { name: 'Personal Finance Tracker', description: 'Tech Stack : Nextjs, OpenAI GPT, Chartjs, REST APIs, WebSockets, NextAuth, Dockerization, Internationalization',
-        image: bot, link: 'next-auth-three-swart.vercel.app' },    
+        image: three, link: 'next-auth-three-swart.vercel.app' },    
     { name: 'NextDasboard', description: 'Dashboard project - Nextjs(Streaming, skeletons, parallel data fetching, dynamic rendering, pnpm package). Postgress Database,',
-        image: bot, link: 'next-dashboard-ruby-ten.vercel.app' },
+        image: three, link: 'next-dashboard-ruby-ten.vercel.app' },
     { name: 'NeemaBot', description: 'An  AI-powered chatbot for mental health support',
-        image: bot, link: 'https://ai-powered-chatbot-2.onrender.com' },
+        image: six, link: 'https://ai-powered-chatbot-2.onrender.com' },
     { name: 'Learning Management System', description: 'a fully functional LMS using Django Rest Framework for backend APIs and React for a dynamic, user-friendly frontend. The platform supports seamless payments through Stripe and PayPal,',
-        image: bot, link: '' },
+        image: two, link: '' },
     { name: 'Chatgpt Clone', description: 'This project is a ChatGPT clone built with React for the frontend, Flask for the backend, and OpenAIs GPT-3.5-turbo model for generating responses. It features a user-friendly chat interface',
-        image: bot, link: '' },
+        image: one, link: '' },
     { name: 'Blog Application', description: 'A Blog application built on the MERN stack, enables users to create, edit, and delete blog posts with ease. It includes user authentication and a dynamic, responsive interface. MongoDB manages the database, Express.js and Node.js handle server-side logic, while React provides a seamless, interactive user experience.', 
         image: image10, link: 'https://blog-application-6-6z2e.onrender.com/' },
     { name: 'Chat Application', description: 'This chat application leverages Node.js for the backend and integrates with ChatEngine.io to handle real-time messaging. It utilizes react-chat-engine-pretty for a prebuilt, customizable UI, providing a seamless user experience. The application supports group chats, allowing multiple users to communicate within shared chat rooms efficiently.', 
@@ -195,25 +201,4 @@ export const portolioProjects = [
       description: 'Simply Learn',
       detailsLink: 'https://simpli-web.app.link/e/72XPIc3OvJb',
     }
-    // {
-    //   category: 'filter-card',
-    //   img: image11,
-    //   title: 'Card 1',
-    //   description: 'Card',
-    //   detailsLink: 'https://www.pinterest.com/pin/876724252436362699/',
-    // },
-    // {
-    //   category: 'filter-card',
-    //   img: image11,
-    //   title: 'Card 3',
-    //   description: 'Card',
-    //   detailsLink: 'portfolio-details.html',
-    // },
-    // {
-    //   category: 'filter-web',
-    //   img: image11,
-    //   title: 'Web 3',
-    //   description: 'Web',
-    //   detailsLink: 'portfolio-details.html',
-    // },
   ];

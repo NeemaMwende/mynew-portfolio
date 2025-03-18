@@ -13,7 +13,7 @@ const ContactMe = () => {
       <h5>Contact <span>Me</span></h5>
 
       <div className="contact-content">
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 1 }} className='urls'>
           <a href="mailto:neemamwende009@gmail.com" target="_blank" rel="noopener noreferrer">
             <ContactMeCard
               iconUrl={email}
