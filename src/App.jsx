@@ -13,6 +13,7 @@ import Achievement from './components/Achievement';
 import Loading from './Loading';
 import 'animate.css';
 //import RotatingBalls from './components/Rotatingballs';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ function App() {
       {isLoading ? <Loading /> : (
         <div className="App glitch">
           <Navbar />
+          <ScrollToTop/>
           <div className='container'>
             <Bio />
             <Skills />
