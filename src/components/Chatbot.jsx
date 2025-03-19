@@ -16,35 +16,21 @@ const Chatbot = () => {
 
   const sendMessage = async () => {
     if (!input.trim()) return;
-
+  
     const newMessages = [...messages, { text: input, sender: "user" }];
     setMessages(newMessages);
     setInput("");
-
+  
     try {
-      const response = await axios.post(
-        "https://api.openai.com/v1/chat/completions",
-        {
-          model: "gpt-3.5-turbo",
-          messages: [
-            { role: "system", content: "You are a chatbot answering questions about Neema Mwende's resume and portfolio. Provide relevant answers and contact info when asked." },
-            { role: "user", content: input },
-          ],
-        },
-        {
-          headers: {
-            Authorization: `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
-            "Content-Type": "application/json",
-          },
-        }
-      );
-
-      const botReply = response.data.choices[0].message.content;
-      setMessages([...newMessages, { text: botReply, sender: "bot" }]);
+      const response = await axios.post("http://localhost:5000/api/chat", { message: input });
+  
+      setMessages([...newMessages, { text: response.data.reply, sender: "bot" }]);
     } catch (error) {
+      console.error(error.response?.data || error.message);
       setMessages([...newMessages, { text: "Oops! Something went wrong.", sender: "bot" }]);
     }
   };
+  
 
   return (
     <div className="chatbot-container">
