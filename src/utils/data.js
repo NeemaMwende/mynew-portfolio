@@ -1,6 +1,3 @@
-// import image1 from "../Images/tool.png";
-// import image2 from "../Images/tool.png";
-// import image3 from "../Images/tool.png";
 import image4 from "../Images/soft.png";
 // import image5 from "../Images/image1.jpg";
 import image6 from "../Images/movie.png";
