@@ -14,6 +14,7 @@ import Loading from './Loading';
 import 'animate.css';
 //import RotatingBalls from './components/Rotatingballs';
 import ScrollToTop from "./components/ScrollToTop";
+import Chatbot from "./components/Chatbot";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +22,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 500);
+    }, 1000);
 
     return () => clearTimeout(timer); 
   }, []);
@@ -32,6 +33,7 @@ function App() {
         <div className="App glitch">
           <Navbar />
           <ScrollToTop/>
+          
           <div className='container'>
             <Bio />
             <Skills />
@@ -40,8 +42,10 @@ function App() {
             {/* <Resume /> */}
             <Achievement />
             <ContactMe />
+            <Chatbot />
           </div>
           <Footer />
+         
         </div>
       )}
     </>
